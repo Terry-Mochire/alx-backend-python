@@ -4,10 +4,9 @@
 
 import asyncio
 import random
-from typing import List
 
 
-async def async_generator() -> List[float]:
+async def async_generator() -> float:
     """Async Generator"""
     for i in range(10):
         await asyncio.sleep(1)
